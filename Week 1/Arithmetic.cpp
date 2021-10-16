@@ -1,9 +1,13 @@
-//+ addition
-//- subtraction (or negation)
-//* multiplication
-/// division
-//% mod (modulus or remainder)
+/*
+	Arithmetic
+		+ addition
+		- subtraction (or negation)
+		* multiplication
+		/ division
+		% mod (modulus or remainder)
 
+	**Follows bodmas rule
+*/
 #include <iostream>
 
 using namespace std;
