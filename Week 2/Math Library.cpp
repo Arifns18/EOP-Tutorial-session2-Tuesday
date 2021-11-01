@@ -29,8 +29,7 @@ int main()
 	cin >> sphereRadius;
 	cout << endl;
 	
-	sphereVolume = (4 / 3) * PI * pow(sphereRadius, 3);
-	
+	sphereVolume = (4.0 / 3.0) * PI * pow(sphereRadius, 3);
 	cout << "The volume of the sphere is: "
 		<< sphereVolume << endl << endl;
 	

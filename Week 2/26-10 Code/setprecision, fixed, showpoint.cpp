@@ -36,7 +36,7 @@ int main()
 		 << PI * radius * radius * height << endl; 
 	cout << "PI = " << PI << endl << endl; 
 	
-	cout << "Setprecision"
+	cout << "Setprecision "
 		 << setprecision(3) << radius << ", "
 		 << setprecision(2) << height << ", "
 		 << setprecision(5) << PI << endl; 
