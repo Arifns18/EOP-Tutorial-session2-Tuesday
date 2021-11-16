@@ -20,8 +20,10 @@ int main()
 	do
 	{
 		sum = sum + num % 10; //extract the last digit
+		//12345
 		//and add it to sum
 		num = num / 10; //remove the last digit
+		//12345/10 = 1234.5 ~ 1234/ ... 1/10 =0.1
 	}
 	while (num > 0);
 	

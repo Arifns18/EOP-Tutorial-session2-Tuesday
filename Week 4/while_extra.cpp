@@ -8,7 +8,7 @@ int main(){
 	int a =0;
 	char b = 'a';
 	
-	while ((b=='a')&&(a<=5))
+	while ((b=='a')||(a<=5))
 	{
 		cin >> a; 
 		cout << a <<endl;

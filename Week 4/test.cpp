@@ -4,61 +4,54 @@ using namespace std;
 
 int main(){
 
-	int a=0, number=1;
-	int i;
+	int counter = 3;
+	int value, sentinel = 5;
 	
-	bool isFound= false;	
+	int num, sum=0;
+	bool isFound = false;
 	
-//	while(a<=3)
+//	while (counter<3)
 //	{
-//		cin >> number;
-//		cout << "Number inserted: "<<number <<endl;
-//		a++;
+//		cout << "Line: " << counter << endl;
+//		counter++;
 //	}
-
-//	while (number != 3)
+	
+//	while (value!=sentinel)
 //	{
-//		cin >> number;
-//		cout << "Number inserted: "<< number<< endl;
+//		cin >> value;
 //	}
+//	cout << endl << "End of program";
 
 //	while (!isFound)
 //	{
-//		int hidden = 5, guess;
+//		cin >> num;
 //		
-//		cin >> guess;
-//		
-//		if (guess == hidden)
+//		if (num<0)
 //		{
+//			cout << "Sum: " << sum;
 //			isFound = true;
-//			cout << "Hidden number is: "<< hidden<< endl;
 //		}
+//		
 //		else
-//		cout << "Guess again." <<endl;	
+//			sum += num;
 //	}
 
-//	for (i=0; i<=5; i++)
-//	{
-//		for(int j=0; j<=i;j++)
-//		{
-//			cout << i;
-//		}
-//		cout <<endl;
-//	}
-	
-//	cin >> number;
-//	
+	for (int i = 1; i<5; i++)
+	{
+		for(int j=0; j<i; j++)
+		{
+			cout << "*";
+		}
+		cout << endl;
+	}
+
 //	do
-//	cout << "Enter a value";
-//	while (number !=3);
-//	return 0;
-
-//	while (number == 3)
- 
- while (number>0)
- cin >> number;
- cout << "Test";
-
+//	{
+//		cout << "Line: " << counter << endl;
+//		counter++;	
+//	}while (counter<3);
+	
+	return 0;
 }
 
 
