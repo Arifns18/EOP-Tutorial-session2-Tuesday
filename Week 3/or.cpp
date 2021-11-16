@@ -22,10 +22,10 @@ int main()
 	cout << "Enter suitcase weight in pounds: ";
 	cin >> suitcaseWeight; 
 	cout << endl;
-	
+// !, &&, || 
 	if (suitcaseDimension > 108 || suitcaseWeight > 50)
 	additionalCharges = 50.00; 
-	cout <<"Additional suitcase charges: $"
-	<< additionalCharges << endl; 
+	cout << "Additional suitcase charges: $"
+		 << additionalCharges << endl; 
 	return 0; 
 }

@@ -11,7 +11,14 @@ int main(){
 	
 	max = (a>b) ? a : b;
 	
+	if (a>b)
+	max = a;
+	else
+	max = b;
+	
 	cout<< max;
+
+
 	
 	return 0;
 }

@@ -1,6 +1,6 @@
 
 #include <iostream>
-//#define NDEBUG
+#define NDEBUG
 #include <cassert>
 
 void print_number(int* myInt) {

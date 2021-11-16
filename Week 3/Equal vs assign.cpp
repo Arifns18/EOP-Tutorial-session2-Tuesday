@@ -8,6 +8,7 @@ int main(){
 	int x;
 	
 //	cin >> x;
+	cout << x << endl;
 	
 	if (x=1)
 	cout << "yes";

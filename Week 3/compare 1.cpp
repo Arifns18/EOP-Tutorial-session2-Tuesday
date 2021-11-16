@@ -6,7 +6,7 @@ int main(){
 	
 	int month;
 	
-	cout << "Enter month as integer (0-12): ";
+	cout << "Enter month as integer //else if (0-12): ";
 	cin >> month;
 	
 	if (month == 1)
