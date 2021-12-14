@@ -8,7 +8,7 @@ int main(){
 
 	int list[] = {1, 4, 4, 2, 5, -3, 6, 2};
 	
-	cout << sizeof(list)/sizeof(list[0]) <<endl;
+	//cout << sizeof(list)/sizeof(list[0]) <<endl;
 	
 	int i = linearSearch(list, 4, sizeof(list)/sizeof(list[0]) ); // returns 1
 	cout << i <<endl;
