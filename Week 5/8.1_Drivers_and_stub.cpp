@@ -2,16 +2,16 @@
 
 using namespace std;
 
-double poolCapacity(double len, double wid, double dep);
+void poolCapacity(double len, double wid, double dep);
 
 int main(){
 
-	cout << poolCapacity(1,1,1);
+	poolCapacity(1,1,1);
 	return 0;
 }
 
-double poolCapacity(double len, double wid, double dep)
+void poolCapacity(double len, double wid, double dep)
 {
-	return 1000.00;
+	cout << "1000.00";
 }
 

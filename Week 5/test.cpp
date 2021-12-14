@@ -2,31 +2,41 @@
 
 using namespace std;
 
-void displayNumberRef(int& number);
-void displayNumber(int number);
+void printStars(int i);
+void printStars2(int& z);
 
 int main(){
-	int a =10, b=10;
+	int j = 10, x =10;
 	
-	displayNumberRef(a);
-	displayNumber(b);
 	
-	cout << "Current value of a: " << a;
+	printStars(j);
 	cout << endl;
-	cout << "Current value of b: " << b;
+	printStars2(x);
+	cout << endl;
+	
+	
+	
+	cout << "Values of j after printStars: " << j;
+	cout << endl;
+	cout << "Values of x after printStars3: " << x;
 
-	return 0;
+return 0;
 }
 
-void displayNumberRef(int& number)
+int global = 10;
+
+void printStars(int i)
 {
-	number = number + 10;
-	cout << number << endl;
+	for(int k=0; k<=i; k++)
+	cout << " *";
+	i++;
+	
 }
-
-void displayNumber(int number)
+void printStars2(int& z)
 {
-	number = number + 10;
-	cout << number << endl;
+	for(int k=0; k<=z; k++)
+	
+		cout << " *";	
+	z++;
 }
-
+void printGlobal()
